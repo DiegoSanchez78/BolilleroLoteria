@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    /* background-image: url(bolillasLoteria.png); */
+}
+
+h1 {
+    color: #333;
+}
+
+#numberDisplay {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#numerosSorteadosPanel, #numerosOrdenadosPanel {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 50%;
+    line-height: 40px;
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#generarNumero, #mostrarNumerosSorteados, #mostrarNumerosOrdenados {
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#generarNumero:hover, #mostrarNumerosSorteados:hover, #mostrarNumerosOrdenados:hover {
+    background-color: #2980b9;
+}
+
+#generarNumero:active, #mostrarNumerosSorteados:active, #mostrarNumerosOrdenados:active {
+    background-color: #1f618d;
+}
